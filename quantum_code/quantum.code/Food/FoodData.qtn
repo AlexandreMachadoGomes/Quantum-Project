@@ -1,0 +1,8 @@
+﻿component FoodData
+{
+	int ammountMass;
+	
+	
+	
+	
+}

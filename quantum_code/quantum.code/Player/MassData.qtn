@@ -1,0 +1,7 @@
+﻿component MassData
+{
+	int ammountMass;
+	
+	
+	
+}

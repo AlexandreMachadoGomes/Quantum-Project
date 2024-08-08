@@ -1,0 +1,25 @@
+﻿enum ButtonState
+{
+	Iddle,
+	Clicking
+}
+
+enum ButtonTypes
+{
+	SpeedUpButton,
+	SpawnFoodButton
+}
+
+component ButtonInfo
+{
+	ButtonState ButtonState;
+	bool ToggleActive;
+	ButtonTypes Type;
+	int NumberPlayersOnButton;
+	bool NeedEveryoneOffButtonToIddle;
+	bool IsToggle;
+	bool HasTimer;
+	FrameTimer ButtonTimer;
+	FP TotalTimerTime;
+}
+

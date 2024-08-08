@@ -1,0 +1,1322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a366507de6e4aa44aea490bd69adace, type: 3}
+  m_Name: Map1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Map1
+      Guid:
+        Value: 1710471675203725834
+    UserAsset:
+      Id:
+        Value: 0
+    Scene: Game
+    ScenePath: Assets/Photon/QuantumDemo/Game/Game.unity
+    SceneGuid: 03bd5ba32b9950244a08f22579187d8b
+    WorldSize: 256
+    BucketsCount: 16
+    BucketsSubdivisions: 8
+    BucketingAxis: 0
+    SortingAxis: 1
+    TriangleMeshCellSize: 4
+    StaticColliders3DTrianglesData:
+      Id:
+        Value: 3093865984696992040
+    OptionalTriangleMetadataSerializationEnabled: 1
+    SerializeTrianglesMetadata: 0
+    StaticColliders3DTrianglesBinaryFile: 
+    GridSizeX: 32
+    GridSizeY: 32
+    GridNodeSize: 4
+    NavMeshLinks: []
+    Regions: []
+    StaticColliders2D: []
+    StaticColliders3D: []
+    MapEntities: []
+  Prototypes:
+  - ButtonInfo:
+    - ButtonState:
+        Value: 0
+      ToggleActive:
+        Value: 0
+      Type:
+        Value: 0
+      NumberPlayersOnButton: 0
+      NeedEveryoneOffButtonToIddle:
+        Value: 0
+      IsToggle:
+        Value: 0
+      HasTimer:
+        Value: 1
+      ButtonTimer:
+        _frame: 0
+      TotalTimerTime:
+        RawValue: 196608
+    FoodData: []
+    MassData: []
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 65536
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 6553
+        Y:
+          RawValue: 498728
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 490864
+        Y:
+          RawValue: 199229
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 237895
+        Y:
+          RawValue: 340787
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 97648
+        Y:
+          RawValue: -53739
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 186777
+        Y:
+          RawValue: -281149
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 225443
+        Y:
+          RawValue: 621281
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: -319160
+        Y:
+          RawValue: 180223
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: -401080
+        Y:
+          RawValue: 693370
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 450887
+        Y:
+          RawValue: 464650
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 310640
+        Y:
+          RawValue: 70123
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 399769
+        Y:
+          RawValue: -157286
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 438435
+        Y:
+          RawValue: 745144
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: -106168
+        Y:
+          RawValue: 304087
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: -188088
+        Y:
+          RawValue: 817233
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 719585
+        Y:
+          RawValue: 347996
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 579338
+        Y:
+          RawValue: -46530
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 668467
+        Y:
+          RawValue: -273940
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 707133
+        Y:
+          RawValue: 628490
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 162529
+        Y:
+          RawValue: 187432
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ButtonInfo: []
+    FoodData: []
+    MassData:
+    - ammountMass: 100
+    PlayerLink: []
+    TopDownKCC: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D:
+    - ShapeConfig:
+        ShapeType: 1
+        PolygonCollider:
+          Id:
+            Value: 0
+        CircleRadius:
+          RawValue: 32768
+        EdgeExtent:
+          RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        RotationOffset:
+          RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D:
+    - CallbackFlags:
+        Value: 0
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 80609
+        Y:
+          RawValue: 700579
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []

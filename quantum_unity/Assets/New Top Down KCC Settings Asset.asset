@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad179a088548aaf4c85983df03d4469b, type: 3}
+  m_Name: New Top Down KCC Settings Asset
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+    Radius:
+      RawValue: 32768
+    MaxContacts: 2
+    AllowedPenetration:
+      RawValue: 6553
+    CorrectionSpeed:
+      RawValue: 655360
+    BaseSpeed:
+      RawValue: 131072
+    Acceleration:
+      RawValue: 655360
+    Debug: 0
+    Brake:
+      RawValue: 65536

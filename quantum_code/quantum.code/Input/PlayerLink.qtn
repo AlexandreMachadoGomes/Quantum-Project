@@ -1,0 +1,8 @@
+﻿component PlayerLink {
+
+	player_ref Player;
+	bool IsDashing;
+	int totalDashEnergy;
+	int maxDashEnergy;
+	bool IsSpedUp;
+}
